@@ -2,17 +2,21 @@
   "name": "belajar-vite",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://10ilham.github.io/web/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.2",
     "framer-motion": "^10.16.12",
+    "gh-pages": "^6.1.0",
     "react": "^18.2.0",
     "react-animation-on-scroll": "^5.1.0",
     "react-bootstrap": "^2.9.1",
