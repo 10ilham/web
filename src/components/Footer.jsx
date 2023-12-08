@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 // import logo from '../assets/img/ilhamm.jpg';
-import logo from "../assets/logo/ilhamm.jpg";
+import logo from "../assets/logo/ilham.jpg";
 
 export const Footer = () => {
   return (
