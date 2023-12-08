@@ -39,7 +39,8 @@ export const Project = () => {
       Judul: "Computer Hardware Basics",
       desc: "Badge by cisco",
       imgUrl: proj3,
-      urlProj: "https://blackring8.github.io/GilangPrakoso-Profile/",
+      urlProj:
+        "https://www.credly.com/badges/e77749c8-c389-4b0f-97aa-77aa142a8c57/public_url",
     },
     {
       Judul: "NDG Linux Unhatched",
